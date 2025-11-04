@@ -1,4 +1,4 @@
-# 🌱 Edunet Foundation – Week 1: Sustainability Project  
+#  Edunet Foundation – Week 1: Sustainability Project  
 ## Waste Classification using CNN
 
 This project is part of the **Edunet Foundation Internship on Sustainability**.  
@@ -6,7 +6,7 @@ It focuses on developing a **Convolutional Neural Network (CNN)** model for auto
 
 ---
 
-## 📦 Dataset
+##  Dataset
 - **Source:** [Garbage Dataset by Suman Kunwar – Kaggle](https://www.kaggle.com/datasets/sumn2u/garbage-classification)
 - **Classes:** Cardboard, Glass, Metal, Paper, Plastic, Trash
 - **Preparation:**
@@ -16,12 +16,12 @@ It focuses on developing a **Convolutional Neural Network (CNN)** model for auto
 
 ---
 
-## 🎯 Objective
+## Objective
 To build an image classification model that can automatically identify waste categories, promoting **efficient recycling** and **smart waste management** as part of sustainable practices.
 
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 - Python  
 - TensorFlow / Keras  
 - NumPy, Pandas, Matplotlib  
@@ -29,24 +29,24 @@ To build an image classification model that can automatically identify waste cat
 
 ---
 
-## 📊 Week 1 Progress Summary
+## Week 1 Progress Summary
 
-### ✅ Achievements
+# Achievements
 - Selected and cleaned dataset  
 - Conducted exploratory data analysis (EDA)  
 - Implemented preprocessing (resizing, normalization, augmentation)  
 - Created organized project structure and initialized GitHub repository  
 
-### 📈 Current Progress
+# Current Progress
 - ~30% project completion  
 - Dataset preparation and EDA phase completed  
 
-### 🚀 Next Steps
+# Next Steps
 - Begin CNN model development and training (Week 2 milestone)
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 Edunet-Foundation-Week1-sustainability-waste-classification/
 │
 ├── data/ # Dataset folders (train/test)
