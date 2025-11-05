@@ -1,57 +1,52 @@
 Edunet Foundation – Sustainability Project
 Waste Classification using CNN
 
-This project is part of the Edunet Foundation Internship on Sustainability.
-It focuses on developing a Convolutional Neural Network (CNN) model to automatically classify waste into categories — promoting sustainable waste management and recycling automation.
+This project is part of the **Edunet Foundation Internship on Sustainability**.  
+It focuses on developing a **Convolutional Neural Network (CNN)** model for automatic waste classification to support **sustainable waste management** and recycling initiatives.
 
-Dataset
+---
 
-Source: Garbage Classification v2 – Kaggle
-Classes: Battery, Biological, Cardboard, Clothes, Glass, Metal, Paper, Plastic, Shoes, Trash
+## 📦 Dataset
+- **Source:** [Garbage Dataset by Suman Kunwar – Kaggle](https://www.kaggle.com/datasets/sumn2u/garbage-classification)
+- **Classes:** Cardboard, Glass, Metal, Paper, Plastic, Trash
+- **Preparation:**
+  - Removed duplicate and unreadable images
+  - Organized into labeled `train/` and `test/` folders
+  - Ensured balanced class distribution
 
-Preparation Steps:
+---
 
-Downloaded and verified data integrity
-Removed duplicates and unreadable files
-Resized images to 128×128 pixels
-Organized into labeled subfolders for training and validation
-Applied data augmentation to increase variability
+## 🎯 Objective
+To build an image classification model that can automatically identify waste categories, promoting **efficient recycling** and **smart waste management** as part of sustainable practices.
 
-Objective
+---
 
-To design and train an image classification model that can automatically identify and categorize waste images — enabling efficient waste segregation for smart and sustainable recycling systems.
+## 🧰 Tools & Libraries
+- Python  
+- TensorFlow / Keras  
+- NumPy, Pandas, Matplotlib  
+- scikit-learn, OpenCV  
 
-Tools & Libraries
+---
 
-Programming Language: Python
-Frameworks: TensorFlow, Keras
-Libraries: NumPy, Pandas, Matplotlib, scikit-learn, OpenCV
+## 📊 Week 1 Progress Summary
 
-Week 1 Progress
+### ✅ Achievements
+- Selected and cleaned dataset  
+- Conducted exploratory data analysis (EDA)  
+- Implemented preprocessing (resizing, normalization, augmentation)  
+- Created organized project structure and initialized GitHub repository  
 
--Selected and cleaned the dataset
--Conducted exploratory data analysis (EDA)
--Implemented preprocessing: resizing, normalization, augmentation
--Created organized project folder structure
--Initialized GitHub repository
+### 📈 Current Progress
+- ~30% project completion  
+- Dataset preparation and EDA phase completed  
 
-Week 2 Progress
+### 🚀 Next Steps
+- Begin CNN model development and training (Week 2 milestone)
 
--Implemented CNN model using TensorFlow/Keras
--Trained on 10 waste categories using Garbage Classification v2 dataset
--Applied image augmentation and validation split (80:20)
--Achieved ~85–90% validation accuracy
--Evaluated using confusion matrix and classification report
--Tested with real waste images via Google Colab
--Saved trained model (waste_classification_final.h5) for future inference
+---
 
-Next Steps (Week 3 Plan)
-
--Fine-tune model using Transfer Learning (MobileNetV2)
--Improve accuracy and generalization
--Deploy model or prepare demo presentation (PPT)
-
-Project Structure
+## 📂 Project Structure
 Edunet-Foundation-Week1-sustainability-waste-classification/
 │
 ├── data/                 # Dataset folders (train/test)
