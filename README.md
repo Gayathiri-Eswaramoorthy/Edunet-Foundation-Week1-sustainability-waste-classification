@@ -45,14 +45,8 @@ Week 2 Progress
 -Tested with real waste images via Google Colab
 -Saved trained model (waste_classification_final.h5) for future inference
 
-Next Steps (Week 3 Plan)
-
--Fine-tune model using Transfer Learning (MobileNetV2)
--Improve accuracy and generalization
--Deploy model or prepare demo presentation (PPT)
-
 Project Structure
-Edunet-Foundation-Week1-sustainability-waste-classification/
+Sustainability-waste-classification/
 │
 ├── data/                 # Dataset folders (train/test)
 ├── notebooks/            # Jupyter/Colab notebooks
@@ -87,7 +81,7 @@ Saved the optimized model as mobilenetv2_waste_classification_final.h5 for furth
 Updated notebooks and documentation to reflect Week 3 improvements.
 
 Updated Project Structure
-Edunet-Foundation-Week1-sustainability-waste-classification/
+Sustainability-waste-classification/
 │
 ├── data/                                 # Dataset folders (train/validation)
 ├── notebooks/
@@ -104,12 +98,3 @@ Edunet-Foundation-Week1-sustainability-waste-classification/
 ├── requirements.txt
 └── README.md
 
-Next Steps (Final Phase / Week 4 Plan)
-
-Prepare final presentation (PPT) summarizing project goals, methodology, results, and model performance.
-
-Demonstrate predictions using both test images and live inference.
-
-Finalize documentation and submit GitHub repository along with all milestones.
-
-(Optional) Convert model to TensorFlow Lite for mobile/web demo.
